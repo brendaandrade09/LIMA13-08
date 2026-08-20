@@ -1,22 +1,21 @@
 body {
-    background-color: plum;
+    background-color: antiquewhite;
     margin: 1px;
     padding-left: 3px;
     padding-top: 2px;
-    width: 99vw;
-    height: 93.5vh;
+    width: 99.2vw;
+    height: 99.2vh;
 }
 
 header {
-    border: 3px;
-    border-style: solid;
-    border-color: darkmagenta;
-    background-color: blueviolet;
+    background-color: rgb(159, 129, 89);
     width: 100%;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;
 }
 
 .cabecalho {
@@ -26,6 +25,7 @@ header {
     border-radius: 30px;
     border-style: solid;
     border-color: violet;
+    background-color: antiquewhite;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,15 +33,14 @@ header {
 }
 
 main {
-    border: 3px;
-    border-style: solid;
-    border-color: darkmagenta;
-    background-color: blueviolet;
+    background-color: rgb(159, 129, 89);
     width: 100%;
     height: 330px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80%;
 }
 
 .footer {
@@ -55,32 +54,76 @@ main {
     align-items: center;
     justify-content: center;
     min-width: 50px;
+    background-color: antiquewhite;
 }
 
 footer {
-    border: 3px;
-    border-style: solid;
-    border-color: darkmagenta;
-    background-color: blueviolet;
+    background-color: rgb(159, 129, 89);
     width: 100%;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80%;
 }
 
 .principal {
-    width: 90%;
-    height: 90%;
-    border: 2px;
+    width: 100%;
+    height: 100%;
+    border: 3px;
     border-style: solid;
     border-color: violet;
     border-radius: 30px;
+    background-color: antiquewhite;
     display: flex;
-    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+    background-size: cover;
+    box-shadow: grey 5px 3px 10px 2px;
+    border-radius: 20%;
+    transition: background 0.5s ease;
+}
+
+.artCentralizado {
+    display: flex;
     justify-content: center;
 }
-img{
-    width: 15%;
-    background-size: cover;
+
+.distribuida {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+
+.artPocao:hover {
+    background-color: rgb(255, 218, 170);
+    animation: growAndRotate 2s ease-in-out infinite;
+}
+
+.artPocao {
+    opacity: 1;
+    transition: background 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 20%;
+    width: 100px;
+    height: 100px;
+    border-color: violet;
+}
+
+@keyframes growAndRotate {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+
+    100% {
+        transform: scale(1.08) rotate(3deg)
+    }
 }
