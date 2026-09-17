@@ -1,0 +1,29 @@
+:root{
+    --azul:#0039bf;
+    --azul-claro:#359aff;
+    --vermelho:#f38e8e;
+    --vinho:#850000
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+#resp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1rem solid;
+    width: fit-content;
+    min-width: 6rem;
+    font-size: clamp(1rem, 4vw, 2rem);
+    max-width: 98vw;
+    text-align: center;
+    background-color: var(--vinho);
+    color:var(--azul-claro);
+    transition: all 0.3s ease;
+}
+#resp.active{
+    background-color: var(--vermelho);
+    color:var(--azul);
+}
