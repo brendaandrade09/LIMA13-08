@@ -1,7 +1,6 @@
 let login = document.getElementById("txtLogin");
 let senha = document.getElementById("txtSenha");
 let botao = document.getElementById("btnClicar");
-let resposta = document.getElementById("resp");
 
 const loginBd = "email@gmail.com";
 const senhaBd = "12345";
