@@ -40,6 +40,15 @@ input {
     text-transform: lowercase;
     background-color: blanchedalmond;
 }
+#resp {
+    font-size: x-large;
+    color: brown;
+    border-radius: 8px;
+    text-shadow: 1px 1px 3px gray;
+    text-indent: 1rem;
+    text-transform: lowercase;
+    background-color: blanchedalmond;
+}
 
 label {
     font-family: 'Delius', cursive;

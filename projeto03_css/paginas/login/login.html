@@ -5,20 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../login/login.css">
-    <title>Document</title>
+    <script type="module" src="../../js/login.js" defer></script>
+    <title>Login</title>
 </head>
 
 <body>
     <main class="container">
-            <section class="login">
-                <form>
-                    <label for="txtLogin">Login</label>
-                    <input type="email" name="" id="txtLogin">
-                    <label for="txtSenha">Senha</label>
-                    <input type="password" name="" id="txtSenha">
-                    <button id="btnClicar">Confirmar</button>
-                </form>
-            </section>
+        <section class="login">
+            <form>
+                <label for="txtLogin">Login</label>
+                <input type="email" name="" id="txtLogin">
+                <label for="txtSenha">Senha</label>
+                <input type="password" name="" id="txtSenha">
+                <button type="button" id="btnClicar">Confirmar</button>
+                <div id="resp">Resposta</div>
+            </form>
+        </section>
     </main>
 
 </body>
