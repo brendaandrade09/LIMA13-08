@@ -1,0 +1,51 @@
+:root {
+    --azul-100: rgb(150, 150, 250);
+    --azul-200: rgb(125, 125, 245);
+    --azul-300: rgb(100, 100, 240);
+    --vermelho-vivo: rgb(225, 75, 75);
+    --vermelho-escuro: rgb(185, 0, 0);
+    --rosa: rgb(255, 30, 230);
+    --cinza: rgb(200, 200, 200);
+    --branco: white;
+}
+
+body {
+    width: 99.5vw;
+    min-width: 243px;
+    margin: 0;
+    padding: 0;
+    height: 98.5vh;
+    border: 0.03rem solid;
+}
+
+.container {
+    border: 0.03rem solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cinza);
+    width: 70%;
+    height: 90%;
+    transition: background-color 0.4s ease-in-out;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+#btnEsquerdo, #btnDireito{
+cursor: pointer;
+padding:1rem;
+user-select: none;
+border:none;
+border-radius: 50%;
+background-color: transparent;
+}
+#carousel{
+    width: 50%;
+    height:30%;
+}
