@@ -1,14 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylecslt.css">
+    <script type="module" src="consulta.js" defer></script>
     <title>Consulta</title>
 </head>
+
 <body>
-  <main>
-    <h1>Você está na consulta!!</h1>
-    <a href="../../index.html">Voltar</a>
-  </main>  
+    <h1>Dados salvos no sistema!!</h1>
+    <main>
+        <ul>
+            <li>
+                Nome:
+                <span id="resultadoNome"></span>
+            </li>
+            <li>
+                Cidade:
+                <span id="resultadoCidade"></span>
+            </li>
+            <li>
+                Observações:
+                <span id="resultadoObservacoes"></span>
+            </li>
+        </ul>
+        <a href="../cadastro/cadastro.html">Realizar novo cadastro</a>
+        <a href="../../index.html">Voltar</a>
+    </main>
 </body>
+
 </html>

@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./stylecd.css">
+    <script type="module" src="./cadastro.js" defer></script>
     <title>Cadastro</title>
 </head>
+
 <body>
- <main>
-    <h1>Você está no cadastro!!</h1>
-    <a href="../../index.html">Voltar</a>
- </main>   
+    <main>
+        <h1>Cadastro de alunos</h1>
+        <!--Formulário cadastro-->
+        <form action=""id="formCadastro">
+            <label for="txtNome">Nome completo</label>
+            <input type="text" name="txtNome" id="txtNome" placeholder="Digite seu nome" required>
+            
+            <label for="txtCidade">Cidade</label>
+            <input type="text" name="txtCidade" id="txtCidade" placeholder="Digite sua cidade" required>
+            
+            <label for="txtObservacoes">Observações</label>
+            <input type="text" name="txtObservacoes" id="txtObservacoes" placeholder="Digite observações">
+        <button type="submit">Cadastrar</button>
+        </form>
+        <a href="../../index.html">Voltar</a>
+    </main>
 </body>
+
 </html>
