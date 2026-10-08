@@ -1,9 +1,24 @@
-body{
-    background-color: rgb(181, 101, 255);
+body {
+    background-color: #e4c1f9;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-h1{
-    color:darkolivegreen;
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8093f1;
+    font-size:6rem;
 }
-nav{
-    color:indianred
+
+nav {
+    color: #d0f4de;
+    font-size: 1.5rem;
+}
+
+li {
+    padding: 0.5rem;
 }
